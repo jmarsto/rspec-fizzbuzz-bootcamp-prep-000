@@ -1,8 +1,7 @@
 def fizzbuzz(int)
   if (int/3) === (int/3).round
     "Fizz"
-  elsif
-  (int/5) === (int/5).round
+  elsif (int/5) === (int/5).round
     "Buzz"
   end
 end

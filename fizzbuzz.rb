@@ -4,4 +4,5 @@ def fizzbuzz(int)
   end
   elsif (int/5) === (int/5).round
     "Buzz"
+  end
 end

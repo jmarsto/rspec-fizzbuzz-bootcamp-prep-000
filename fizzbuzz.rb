@@ -1,11 +1,9 @@
 def fizzbuzz(int)
-  if (int/3) === (int/3).round
+  if int % 3 == 0
     "Fizz"
-  end
-  elsif (int/5) === (int/5).round
+  elsif int % 5 == 0
     "Buzz"
-  end
-    elsif (int/3) === (int/3).round && int/5 === (int/5).round
+    elsif int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
   end
 end
